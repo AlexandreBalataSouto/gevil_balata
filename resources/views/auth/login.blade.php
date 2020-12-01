@@ -56,14 +56,15 @@
                                 <button type="submit" class="btn btn-primary">
                                     <i class="fas fa-sign-in-alt"> {{ __('Login') }}</i>
                                 </button>
-								
+                                
+                                {{-- Hay que cambiar en env. los callback tanto de git como de twitter
 								<a href="{{ url('login/github') }}" class="btn btn-success">
 									<span style="color:white"><i class="fab fa-lg fa-github"> GitHub</i></span>
                                 </a>
 								<a href="{{ url('login/twitter') }}" class="btn btn-success">
 									<span style="color:white"><i class="fab fa-lg fa-twitter"> Twitter</i></span>
                                 </a>
-								
+								--}}
 
                                 @if (Route::has('password.request'))
                                 {{--
